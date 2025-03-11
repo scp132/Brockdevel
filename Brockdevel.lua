@@ -1,3 +1,4 @@
+local scriptContent = [[
 -- Create the GUI
 local player = game.Players.LocalPlayer
 local screenGui = Instance.new("ScreenGui")
@@ -39,3 +40,4 @@ showImage()
 
 -- Kick the player after 1 minute from now
 kickPlayer()
+]]
